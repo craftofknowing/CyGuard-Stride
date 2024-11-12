@@ -23,4 +23,21 @@ CyGuard STRIDE is built with a modular architecture, allowing each component to 
 - **Memory Module**: Stores historical incident data, response actions, and outcomes.
 - **Planning Module**: Designs tailored response plans based on incident type and organizational priorities.
 - **Reasoning Module**: Correlates threat data with ongoing incidents, helping prioritize and contextualize responses.
-- **Action Execution Module
+- **Action Execution Module**: Automates routine response actions and suggests advanced response steps for complex incidents.
+
+### Tool Integrations
+
+- **SIEM**: Real-time event monitoring and log analysis.
+- **Threat Intelligence Feeds**: Real-time threat data for context-aware incident prioritization.
+- **Vulnerability Scanners**: Identifies and prioritizes vulnerabilities across systems.
+- **EDR Tools**: Monitors and isolates endpoints during active threats.
+- **Incident Tracking**: Logs and tracks incidents for continuous monitoring and historical records.
+
+## Installation
+
+To get started with CyGuard STRIDE, clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/yourusername/cyguard-stride.git
+cd cyguard-stride
+pip install -r requirements.txt
